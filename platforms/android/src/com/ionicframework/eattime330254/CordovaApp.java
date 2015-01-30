@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.ionicframework.eattime275563;
+package com.ionicframework.eattime330254;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
