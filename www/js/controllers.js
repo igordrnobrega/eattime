@@ -1,8 +1,13 @@
 angular.module('starter.controllers', [])
 
-.controller('AddCtrl', function($scope) {
-})
+.controller('HomeCtrl', function($scope) {
 
-.controller('AgendaCtrl', function($scope) {
-    // $scope.
+    $scope.buttons = [{
+      label: 'como usar',
+      icon: 'ion-help'
+    },{
+      label: 'configurações',
+      icon: 'ion-ios-gear-outline'
+    }];
+
 });

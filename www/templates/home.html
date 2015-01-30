@@ -1,11 +1,9 @@
 <ion-view>
-    <ion-content>
+    <ion-content has-bouncing="false">
         <div class="header">
-
         </div>
-
-            <md-button class="md-fab" aria-label="Comment">
-                <md-icon icon="../img/ionic.png" style="width: 24px; height: 24px;"></md-icon>
-            </md-button>
+        <nav mfb-menu position="tr" effect="zoomin" label="hover here" active-icon="ion-more" resting-icon="ion-more">
+            <a mfb-button icon="{{button.icon}}" label="{{button.label}}" ng-repeat="button in buttons"></a>
+        </nav>
     </ion-content>
 </ion-view>
