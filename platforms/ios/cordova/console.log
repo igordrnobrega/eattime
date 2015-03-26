@@ -1,0 +1,32 @@
+2015-03-26 17:05:36.810 EatTime[5092:531939] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/igornobrega/Library/Developer/CoreSimulator/Devices/FCF0C121-558D-443A-A68E-A01D86D8EDA2/data/Containers/Data/Application/2C4F1BE5-1DBC-4B81-AA4A-F44D857F6483/Library/Cookies/Cookies.binarycookies
+2015-03-26 17:05:37.214 EatTime[5092:531939] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-26 17:05:37.215 EatTime[5092:531939] Multi-tasking -> Device: YES, App: YES
+2015-03-26 17:05:37.245 EatTime[5092:531939] Unlimited access to network resources
+2015-03-26 17:05:37.789 EatTime[5092:531939] [CDVTimer][keyboard] 0.111997ms
+2015-03-26 17:05:37.789 EatTime[5092:531939] [CDVTimer][TotalPluginStartup] 0.365019ms
+2015-03-26 17:05:38.463 EatTime[5092:531939] Resetting plugins due to page load.
+2015-03-26 17:05:39.190 EatTime[5092:531939] Finished load of: file:///Users/igornobrega/Library/Developer/CoreSimulator/Devices/FCF0C121-558D-443A-A68E-A01D86D8EDA2/data/Containers/Bundle/Application/A3A5EEC1-AC23-44AB-83F6-CECC2917F116/EatTime.app/www/index.html#/
+2015-03-26 17:22:24.250 EatTime[6271:586995] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/igornobrega/Library/Developer/CoreSimulator/Devices/FCF0C121-558D-443A-A68E-A01D86D8EDA2/data/Containers/Data/Application/99508A03-0E19-40A1-832B-926AFF898AE1/Library/Cookies/Cookies.binarycookies
+2015-03-26 17:22:24.664 EatTime[6271:586995] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-26 17:22:24.665 EatTime[6271:586995] Multi-tasking -> Device: YES, App: YES
+2015-03-26 17:22:24.685 EatTime[6271:586995] Unlimited access to network resources
+2015-03-26 17:22:25.204 EatTime[6271:586995] [CDVTimer][keyboard] 0.074029ms
+2015-03-26 17:22:25.204 EatTime[6271:586995] [CDVTimer][TotalPluginStartup] 1.655996ms
+2015-03-26 17:22:25.578 EatTime[6271:586995] Resetting plugins due to page load.
+2015-03-26 17:22:26.111 EatTime[6271:586995] Finished load of: file:///Users/igornobrega/Library/Developer/CoreSimulator/Devices/FCF0C121-558D-443A-A68E-A01D86D8EDA2/data/Containers/Bundle/Application/78BCD6B3-4FFC-493F-BBB9-7D9BF9FDF56C/EatTime.app/www/index.html#/
+2015-03-26 17:28:54.485 EatTime[7374:610226] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/igornobrega/Library/Developer/CoreSimulator/Devices/FCF0C121-558D-443A-A68E-A01D86D8EDA2/data/Containers/Data/Application/E74F8CD9-515A-49D2-B0AC-9AFE766AC20D/Library/Cookies/Cookies.binarycookies
+2015-03-26 17:28:54.643 EatTime[7374:610226] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-26 17:28:54.643 EatTime[7374:610226] Multi-tasking -> Device: YES, App: YES
+2015-03-26 17:28:54.646 EatTime[7374:610226] Unlimited access to network resources
+2015-03-26 17:28:54.797 EatTime[7374:610226] [CDVTimer][keyboard] 0.068009ms
+2015-03-26 17:28:54.798 EatTime[7374:610226] [CDVTimer][TotalPluginStartup] 0.276983ms
+2015-03-26 17:28:55.007 EatTime[7374:610226] Resetting plugins due to page load.
+2015-03-26 17:28:55.387 EatTime[7374:610226] Finished load of: file:///Users/igornobrega/Library/Developer/CoreSimulator/Devices/FCF0C121-558D-443A-A68E-A01D86D8EDA2/data/Containers/Bundle/Application/9F3802C8-ADC3-4DB7-8C05-0F3ACBC3D448/EatTime.app/www/index.html#/
+2015-03-26 17:31:01.941 EatTime[7879:621084] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/igornobrega/Library/Developer/CoreSimulator/Devices/FCF0C121-558D-443A-A68E-A01D86D8EDA2/data/Containers/Data/Application/2A297FCE-E95D-4DC8-AD6D-A66F61EA1908/Library/Cookies/Cookies.binarycookies
+2015-03-26 17:31:02.407 EatTime[7879:621084] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-26 17:31:02.408 EatTime[7879:621084] Multi-tasking -> Device: YES, App: YES
+2015-03-26 17:31:02.440 EatTime[7879:621084] Unlimited access to network resources
+2015-03-26 17:31:02.965 EatTime[7879:621084] [CDVTimer][keyboard] 0.093997ms
+2015-03-26 17:31:02.965 EatTime[7879:621084] [CDVTimer][TotalPluginStartup] 0.859022ms
+2015-03-26 17:31:03.364 EatTime[7879:621084] Resetting plugins due to page load.
+2015-03-26 17:31:03.924 EatTime[7879:621084] Finished load of: file:///Users/igornobrega/Library/Developer/CoreSimulator/Devices/FCF0C121-558D-443A-A68E-A01D86D8EDA2/data/Containers/Bundle/Application/C402AE37-94DA-44C5-9D58-2D54DBC00406/EatTime.app/www/index.html#/

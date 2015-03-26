@@ -1,0 +1,33 @@
+<ion-view>
+    <ion-content has-bouncing="false">
+        <div class="header">
+        </div>
+        <a id="bt-settings" href="" ng-click="openSettings()" class="button">
+            <i class="">...</i>
+        </a>
+        <div id="settings" class="content">
+            <label class="item item-input">
+                <span class="input-label">Último alarme: </span>
+                <input type="text" data-ng-model="options.last" placeholder="8h30m">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Intervalos: </span>
+                <div class="range range-positive">
+                    <input type="range" name="volume" min="1" max="12" value="1">
+                </div>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Repetições: </span>
+                <div class="range range-positive">
+                    <input type="range" name="volume" min="1" max="12" value="1">
+                </div>
+            </label>
+        </div>
+        <div id="content" class="content">
+            <img class="clock" src="img/clock.png">
+            <p>Primeira Refeição: <span>{{ last }}</span></p>
+            <p>intervalo: <span>{{ intervalo }}</span></p>
+            <p>repetições: <span>{{ repeticoes }}</span></p>
+        </div>
+    </ion-content>
+</ion-view>

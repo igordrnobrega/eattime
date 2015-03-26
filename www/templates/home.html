@@ -2,8 +2,33 @@
     <ion-content has-bouncing="false">
         <div class="header">
         </div>
-        <nav mfb-menu position="tr" effect="zoomin" label="hover here" active-icon="ion-more" resting-icon="ion-more">
-            <a mfb-button icon="{{button.icon}}" label="{{button.label}}" ng-repeat="button in buttons"></a>
-        </nav>
+        <a id="bt-settings" href="" ng-click="openSettings()" class="button">
+            <i class="">...</i>
+        </a>
+        <div id="settings" class="content">
+            <label class="item item-input">
+                <span class="input-label">Último alarme: </span>
+                <input type="number" data-ng-model="options.lastHour" placeholder="8h">
+                <input type="number" data-ng-model="options.lastMin" placeholder="30m">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Intervalos: </span>
+                <div class="range range-positive">
+                    <input ng-model="intervalo" type="range" name="volume" min="1" max="12" value="1">
+                </div>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Repetições: </span>
+                <div class="range range-positive">
+                    <input ng-model="repeticoes" type="range" name="volume" min="1" max="12" value="1">
+                </div>
+            </label>
+        </div>
+        <div id="content" class="content">
+            <img class="clock" src="img/clock.png">
+            <p>Primeira Refeição: <span>{{ last }}</span></p>
+            <p>intervalo: <span>{{ intervalo }}</span>h</p>
+            <p>repetições: <span>{{ repeticoes }}</span>x</p>
+        </div>
     </ion-content>
 </ion-view>

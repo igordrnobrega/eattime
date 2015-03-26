@@ -1,5 +1,12 @@
 /* Empty. Add your own CSS if you like */
 
+body {
+    font-family: 'Roboto', sans-serif !important;
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 16px;
+}
+
 .pane {
     background-color: #529199;
 }
@@ -11,4 +18,79 @@
     height: 180px;
     -webkit-box-shadow: 1px 1px 23px 3px rgba(0,0,0,0.2);
     box-shadow: 1px 1px 23px 3px rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 1;
 }
+
+#settings {
+    opacity: 0;
+    z-index: 0;
+}
+
+#content {
+    margin-top: -20%;
+    z-index: -1;
+}
+
+    p {
+        margin: 0;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+        p span {
+            text-transform: none;
+        }
+
+    .clock {
+        width: 90%;
+        margin-bottom: 30px;
+        position: relative;
+        z-index: -1;
+    }
+
+a.button {
+  height: 56px;
+  width: 56px;
+  z-index: 20;
+  background-color: #E40A5D;
+  display: inline-block;
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  -webkit-user-drag: none;
+  font-weight: bold;
+  color: #f1f1f1;
+  top: 155px;
+  right: 12px;
+}
+    a.button.activated {
+        background-color: #E40A5D !important;
+    }
+
+    a.button i {
+        position: absolute;
+        font-size: 18px;
+        text-align: center;
+        left: 0;
+        height: 56px;
+        width: 56px;
+        font-weight: bolder;
+        line-height: 46px;
+    }
+
+    a.button i.android {
+        margin-top: 7px;
+    }
+
+.range {
+    width: 63%;
+}
+
+    .range input{
+        margin: 0;
+    }
